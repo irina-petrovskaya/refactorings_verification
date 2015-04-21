@@ -12,7 +12,7 @@ public class Main {
         return o
                 .map(bx -> {
                     B b = new B();
-                    return (Object) b;
+                    return (Object) b; // "redundant" casting
                 })
                 .orElse(new A());
     }
