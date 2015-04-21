@@ -1,5 +1,5 @@
 package aaa.bbb.ccc.ddd;
-
+// idea-138407
 public class Foo {
     public static void main(String... args) throws Exception {
         Bar<Baz> a = method(new Bar<Baz>());
