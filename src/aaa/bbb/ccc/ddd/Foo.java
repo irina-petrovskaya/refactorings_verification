@@ -11,10 +11,12 @@ public class Foo {
 
     //comment this method out to remove the error
     static <T> T method(Class<T> t) throws Exception {
+        System.out.println("static <T> T method(Class<T> t) is called");
         return t.newInstance();
     }
 
     static <T> T method(T t) throws Exception {
+        System.out.println("static <T> T method(T t) is called");
         return t;
     }
 }
