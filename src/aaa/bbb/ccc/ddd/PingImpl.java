@@ -1,11 +1,10 @@
 package aaa.bbb.ccc.ddd;
 
-import aaa.bbb.ccc.ddd.Ping; /**
+/**
  * *******************************
- * Created by Irina.Petrovskaya on 4/17/2015.
- * Project: rename_packages_test
+ * Created by Irina.Petrovskaya on 4/21/2015.
+ * Project: anet_tests
  * *******************************
  */
-public class PingImpl<T> extends Ping<T> {
-
+public class PingImpl<Q> extends Ping<Q> {
 }
