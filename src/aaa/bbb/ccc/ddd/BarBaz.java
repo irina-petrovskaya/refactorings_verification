@@ -13,13 +13,13 @@ public class BarBaz {
     }
 
     //comment this method out to remove the error
-    static <T> T method(Class<T> t) throws Exception {
-        System.out.println("static <T> T method(Class<T> t) is called");
+    static <TTT> TTT method(Class<TTT> t) throws Exception {
+        System.out.println("static <TTT> TTT method(Class<TTT> t) is called");
         return t.newInstance();
     }
 
     static <T> T method(T t) throws Exception {
-        System.out.println("static <T> T method(T t) is called");
+        System.out.println("static <TTT> TTT method(TTT t) is called");
         return t;
     }
 }
