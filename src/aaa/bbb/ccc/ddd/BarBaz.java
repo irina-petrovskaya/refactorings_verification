@@ -3,7 +3,7 @@ package aaa.bbb.ccc.ddd;
 import java.util.Arrays;
 
 // idea-138407
-public class Foo {
+public class BarBaz {
     public static void main(String... args) throws Exception {
         Bar<Baz> a = method(new Bar<Baz>());
         System.err.println(a.getClass().toString());
