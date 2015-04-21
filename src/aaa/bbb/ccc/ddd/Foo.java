@@ -1,4 +1,7 @@
 package aaa.bbb.ccc.ddd;
+
+import java.util.Arrays;
+
 // idea-138407
 public class Foo {
     public static void main(String... args) throws Exception {
@@ -6,7 +9,7 @@ public class Foo {
         System.err.println(a.getClass().toString());
         Bar<Baz> b = method(new Bar<>());
         System.err.println(b.getClass().toString());
-
+        Arrays.stream(new double[]{1, 2, 3}).allMatch(Double::isNaN); // idea-138839
     }
 
     //comment this method out to remove the error
