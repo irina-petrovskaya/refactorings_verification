@@ -2,6 +2,8 @@ package aaa.bbb.ccc.ddd;
 
 import java.util.Arrays;
 
+enum Baz {}
+
 // idea-138407
 public class BarBaz {
     public static void main(String... args) throws Exception {
@@ -29,5 +31,3 @@ public class BarBaz {
 class Bar<T extends Enum<T>> {
 
 }
-
-enum Baz {}

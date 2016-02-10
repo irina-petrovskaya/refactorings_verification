@@ -9,6 +9,7 @@ package aaa.bbb.ccc.ddd;
 interface Foo1 {
 
 }
+
 class Foo2 implements Foo1 {
 
 }
