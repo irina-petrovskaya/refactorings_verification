@@ -10,4 +10,12 @@ public class AAAAA {
     public AAAAA(int anInt) {
         this.anInt = anInt;
     }
+
+    public int getAnInt() {
+        return anInt;
+    }
+
+    public void setAnInt(int anInt) {
+        this.anInt = anInt;
+    }
 }
