@@ -16,7 +16,8 @@ public class AAAAA {
     }
 
     public void setAnInt(int anInt) {
-        this.anInt = anInt;
+        this.anInt = anInt;}
+
     @Override
     public String toString() {
         return "AAAAA{" +
