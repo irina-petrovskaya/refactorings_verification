@@ -5,7 +5,7 @@ package aaa.bbb.ccc.ddd;
  */
 public class AAAAA {
 
-    int ii;
+    int ii; //
 
     public AAAAA(int ii) {
         this.ii = ii;
