@@ -5,7 +5,7 @@ package aaa.bbb.ccc.ddd;
  */
 public class AAAAA {
 
-    int anInt; //
+    int anInt; // int field
 
     public AAAAA(int anInt) {
         this.anInt = anInt;
