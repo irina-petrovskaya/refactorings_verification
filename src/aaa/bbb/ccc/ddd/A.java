@@ -1,7 +1,6 @@
 package aaa.bbb.ccc.ddd;
 
 import java.util.List;
-import java.util.function.Supplier;
 
 
 public class A {
@@ -10,7 +9,13 @@ public class A {
         list.stream().filter(listValue -> string.equals(listValue)); // incorrect lambda replacement
     }
 
-    void b(Supplier<Runnable> supplier) {
-        Runnable c = supplier.get();
+    void b() {
+        Runnable c = new Runnable() {
+            @Override
+            public void run() {
+
+                System.out.println(); // extract functional parameter here
+            }
+        };
     }
 }
